@@ -1,0 +1,9 @@
+The Transformer model is a groundbreaking architecture introduced in the paper *“Attention is All You Need”* by Vaswani et al. in 2017. Unlike previous models that relied heavily on recurrent or convolutional structures, the Transformer uses a mechanism called **self-attention** to process input data in parallel, making it significantly more efficient and scalable.
+
+At its core, the Transformer consists of an encoder and a decoder. The **encoder** takes an input sequence and creates a rich representation of its meaning, while the **decoder** uses this representation to generate an output sequence, such as a translated sentence. The key innovation, self-attention, allows the model to weigh the importance of each word in a sentence relative to the others, enabling it to capture complex dependencies regardless of their distance in the sequence.
+
+Another important feature is the use of **positional encoding**, which helps the model understand the order of words, since it does not process inputs sequentially like RNNs. This allows for parallelization, which speeds up training significantly.
+
+Transformers have since become the foundation for many state-of-the-art models, such as BERT, GPT, and T5, revolutionizing fields like natural language processing, computer vision, and even bioinformatics. Their ability to handle long-range dependencies and massive datasets has made them the backbone of modern AI systems.
+
+In summary, the Transformer model represents a major shift in how machines understand and generate human language, offering both performance and flexibility that have redefined the possibilities in AI.
